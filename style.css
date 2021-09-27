@@ -1,0 +1,202 @@
+/* GENERAL */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html,
+body {
+  font-size: 62.5%;
+  font-family: "Raleway", sans-serif;
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+  margin-right: 2.5rem;
+  margin-left: 2.5rem;
+}
+h3 {
+  font-size: 1.5rem;
+}
+
+a,
+li {
+  text-decoration: none;
+  list-style: none;
+}
+/* header */
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2.5rem;
+  margin: 2.5rem;
+}
+header img {
+  height: 7rem;
+}
+
+ul {
+  display: flex;
+}
+
+ul li a {
+  margin: 0 1.5rem;
+  font-size: 1.5rem;
+  color: blue;
+}
+
+/* HeaderSearch */
+
+.h1-p h1 {
+  font-size: 2rem;
+}
+
+.h1-p p {
+  font-size: 1rem;
+}
+
+.HeaderSearch {
+  padding-top: 1.5rem;
+  padding-bottom: 2.5rem;
+}
+
+.HeaderSearch input {
+  font-size: 1rem;
+  font-weight: 600;
+  border: none;
+}
+
+.HeaderSearch button {
+  border: none;
+  cursor: pointer;
+  color: aliceblue;
+  background: blue;
+  font-weight: bold;
+  border-radius: 0 0.5rem 0.5rem 0;
+  width: 9.5rem;
+  height: 2.8rem;
+}
+
+.filtres {
+  display: flex;
+  align-items: center;
+  padding-bottom: 2.5rem;
+}
+
+.filtres h2 {
+  font-size: 1.5;
+  margin-right: 7rem;
+}
+
+.filtres i {
+  color: blue;
+}
+
+.filtres button {
+  margin-right: -20px;
+  color: black;
+  background: white;
+  width: 15rem;
+  border: none;
+}
+
+.filtres a {
+  color: black;
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+
+.info {
+  padding-bottom: 2.5rem;
+}
+
+/* MAINE */
+
+/* items */
+
+.items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+main {
+  /* position: absolute; */
+  /* display: grid;
+  grid-template-rows: 15rem 15rem;
+  grid-template-columns: 20rem 20rem 20rem; */
+  display: flex;
+  flex-flow: column wrap;
+  background: #f2f2f2;
+  height: 50rem;
+  width: 90rem;
+  padding-top: 2rem;
+}
+
+article img {
+  border-radius: 1rem;
+  height: 10rem;
+  width: 100%;
+  object-fit: cover;
+}
+
+main h3 {
+  padding-left: 2.5rem;
+  position: absolute;
+}
+main h6 {
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+main p {
+  font-size: 0.8rem;
+  font-weight: 400;
+  position: absolute;
+}
+
+article {
+  background: white;
+  border-radius: 1rem;
+  width: 17rem;
+  height: 12rem;
+  margin: 3rem;
+}
+
+article h6,
+p {
+  margin-left: 1rem;
+}
+
+.ap {
+  font-size: 1rem;
+  font-weight: 700;
+  padding: 1.5rem;
+  margin: 2rem;
+}
+
+/* ASIDE */
+
+aside {
+  /* position: relative; */
+  /* float: right; */
+  display: flex;
+  flex-flow: column;
+  width: 28rem;
+  height: 55rem;
+  background: #f2f2f2;
+}
+aside h3 {
+  padding-left: 2.5rem;
+  padding-top: 1.5rem;
+}
+
+aside h6 {
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+aside p {
+  font-size: 0.8rem;
+  font-weight: 400;
+}
